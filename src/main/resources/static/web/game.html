@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salvo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Game View Page</h1>
+    <h2>Game Details</h2>
+    <ul id="details">
+        <li id="game-created"></li>
+
+    </ul>
+
+
+<div id="container" >
+
+</div>
+
+
+    <div class="modal fade" id="ship-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Place Ships</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <button class="ship-button" data-ship="destroyer" data-orientation="v">Destroyer Vertical</button>
+                    <button class="ship-button" data-ship="destroyer" data-orientation="h">Destroyer Horizontale</button>
+                    <button class="ship-button" data-ship="Carrier" data-orientation="v">Carrier <br> 5x1</button>
+                    <button class="ship-button" data-ship="submarine" data-orientation="v">Submarine</button>
+                    <button class="ship-button" data-ship="patrol" data-orientation="v">Patrol Boat</button>
+                    <button class="ship-button" data-ship="battleship" data-orientation="v">Battleship</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="GridShips.js"></script>
+<!--<script src="game.js"></script>-->
+</body>
+</html>

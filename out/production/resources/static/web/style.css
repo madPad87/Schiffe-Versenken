@@ -1,0 +1,44 @@
+#container {
+display: flex;
+}
+
+#grid1 {
+display: flex;
+flex-wrap: wrap;
+width: 500px;
+
+}
+
+#grid2 {
+display: flex;
+flex-wrap: wrap;
+width: 500px;
+
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border: 1px solid white;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.salvo{
+background-color: purple;
+}
+
+.ship {
+background-color: white
+}
+
+.hit {
+background-color: green;
+}
